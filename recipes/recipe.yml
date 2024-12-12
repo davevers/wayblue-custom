@@ -15,10 +15,7 @@ modules:
   - type: akmods
     base: main # if not specified, classic "main" base is used by default
     install:
-      - openrazer
-      - openrgb
-      - v4l2loopback
-      - winesync
+      - evdi
 
   - type: files
     files:
